@@ -12,7 +12,7 @@ provider "aws" {
   region = "ap-south-1" # define region as per your account
 }
 
-resource "aws_s3_bucket" "Tolubucket" {
+resource "aws_s3_bucket" "olubucket" {
   bucket = "demo-github-action-tf-medium"
 
   object_lock_enabled = false
